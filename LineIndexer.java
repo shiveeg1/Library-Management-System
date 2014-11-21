@@ -54,7 +54,7 @@ public class LineIndexer {
       StringBuilder toReturn = new StringBuilder();
       while (values.hasNext()){
         if (!first)
-          toReturn.append(", ");
+          toReturn.append(" ");
         first=false;
         toReturn.append(values.next().toString());
       }
